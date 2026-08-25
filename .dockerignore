@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.git
+.gitignore
+.venv/
+venv/
+env/
+*.ipynb
+.ipynb_checkpoints/
+.DS_Store
+*.md
+!README.md
+docker-compose.override.yml
