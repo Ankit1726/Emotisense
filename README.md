@@ -86,30 +86,6 @@
 
 ---
 
-### ***📂 Folder Structure***
-
-```text
-emotisense/
-│
-├── __pycache__/            # Compiled Python cache
-├── model/                  # Trained BiGRU model weights & architecture
-├── notebook/                # Training / experimentation notebooks
-├── preview/
-│   └── emotisense.png       # Project preview screenshot
-├── static/                  # CSS, JS, and frontend assets
-├── templates/                # Flask HTML templates (index.html etc.)
-├── venv/                     # Virtual environment (local, not versioned)
-│
-├── .dockerignore
-├── .gitignore
-├── app.py                    # Flask app entry point / inference server
-├── docker-compose.yml        # Multi-container orchestration
-├── Dockerfile                 # Container build instructions
-└── requirements.txt           # Python dependencies
-```
-
----
-
 ### ***🧠 Model Architecture***
 
 ```text
@@ -144,13 +120,11 @@ emotisense/
 ---
 
 ### ***🛠 Tech Stack***
-- ***Deep Learning: PyTorch | NumPy***
+- ***Deep Learning: PyTorch | NumPy | Pandas***
 - ***Model: Bidirectional GRU (Stacked, 128 → 64 units)***
-- ***Dataset: dair-ai/emotion (~20k labeled sentences)***
 - ***Backend: Python 3.11 | Flask***
-- ***Frontend: HTML | CSS | JavaScript (Canvas-based live visualizations)***
+- ***Frontend: HTML | CSS | JavaScript***
 - ***Deployment: Render & Docker***
-
 ---
 
 ### ***📊 Model Specs***
